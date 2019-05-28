@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -64,3 +64,107 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container {
+	width: 100%;
+	max-width: 950px;
+	margin: 0 auto;
+}
+
+header {
+	display: inline-block;
+	width: 100%;
+	margin: 40px 0 0 0;
+}
+
+nav {
+	float: left;
+	margin-bottom: 50px;
+}
+
+nav a {
+	display: inline-block;
+    margin-right: 60px;
+    text-decoration: none;
+    color: lightgray;
+    font-size: 16px;
+    vertical-align: -10px;
+}
+
+nav a:hover {
+	color: blue;
+}
+
+.logo {
+	float: right;
+}
+
+section {
+	display: inline-block;
+	width: 100%;
+	margin: 40px 0;
+}
+
+hr {
+	border: .5px solid black;
+	margin: 0;
+}
+
+.top-sec {
+	margin-bottom: 70px;
+
+}
+
+
+.top-text {
+	float: left;
+    text-align: center;
+    width: 55%;
+	padding-top: 60px;
+}
+
+.top-text h1 {
+	font-size: 74px;
+}
+
+.top-text button {
+	width: 155px;
+    padding: 4px;
+    margin-top: 15px;
+    font-family: 'Titillium Web';
+    font-size: 16px;
+    letter-spacing: 2px;
+    border: 1px solid black;
+		background:white;
+		 transition: 0.3s;
+}
+
+.top-text button:hover {
+	background-color: #2FBC7A;
+	border: 1px solid #50E2A3;
+	color: white;
+}
+
+.text-content {
+	padding-right: 15px;
+	font-family: 'Titillium Web';
+}
+
+.top-content .text-content {
+	width: 50%;
+	float: left;
+}
+
+.middle-img {
+	margin: 40px 0;
+}
+
+.bottom-content .text-content {
+	width: 33.33%;
+	float: left;
+}
+
+footer {
+	height: 100px;
+	text-align: center;
+	font-size: 12px;
+}
